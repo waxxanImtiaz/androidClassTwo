@@ -36,6 +36,10 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Computer System"
+        android:background="#000"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:layout_margin="20dp"
         android:id="@+id/tv_computer"
 
         />
