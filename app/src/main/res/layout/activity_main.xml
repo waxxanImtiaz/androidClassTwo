@@ -20,14 +20,45 @@
         android:text="Zindabad"
         android:layout_toEndOf="@+id/tv_one"
         android:layout_toRightOf="@+id/tv_one"
-        android:layout_marginLeft="200dp"
+        android:layout_marginLeft="240dp"
         android:id="@+id/tv_two"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Saylani"
-        android:id="@+id/tv_three"
+        android:id="@+id/tv_saylani"
+        android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Computer System"
+        android:id="@+id/tv_computer"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karachi"
+        android:id="@+id/tv_karachi"
+        android:layout_below="@+id/tv_two"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/tv_computer"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System Engineering"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_computer"
         />
 </RelativeLayout>
